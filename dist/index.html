@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Test Game</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        canvas {
+            padding: 0;
+            margin: 0;
+
+        }
+        @font-face {
+            font-family: 'CurseCasual';
+            src: url('public/fonts/CurseCasual.ttf');
+        }
+        .fontPreload {
+            font-family: 'CurseCasual';
+            position: absolute;
+            left: -100px;
+        }
+    </style>
+<script defer src="bundle.js"></script></head>
+<body>
+
+    <div class="fontPreload">.</div>
+    <script src="dist/bundle.js"></script>
+
+</body>
+</html>
